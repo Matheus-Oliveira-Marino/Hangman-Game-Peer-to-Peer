@@ -43,11 +43,11 @@
 
 ## Como Executar
 
-1. Execute primeiro o servidor. Entre na pasta onde a classe __*Servidor*__ se encontra, pelo próprio terminal do `VSCode` ou pelo `CMD`. O __*path*__ `seu_disco_rídigo\seu_usuário\local_do_projeto\Hangman-Game-Server\Servidor\src` após ser alcançado, deve ser digitado o comando `java Servidor`.
+1. Execute primeiro o servidor. Entre na pasta onde a classe __*Servidor*__ se encontra, pelo próprio terminal do `VSCode` ou pelo `CMD`. O __*path*__ `seu_disco_rídigo\seu_usuário\local_do_projeto\Hangman-Game-Server\Servidor\src`, após ser alcançado, deve ser digitado o comando `java Servidor`.
 
 > Se preferir, pode optar por passar uma porta que deseje que o servidor nela execute. Por padrão, caso não seja passado nenhuma porta, assume-se a '3000'.
 
-2. Entre na pasta onde a classe __*Cliente*__ se encontra, pelo próprio terminal do `VSCode` ou pelo `CMD`. Digite o O __*path*__ `seu_disco_rídigo\seu_usuário\local_do_projeto\Hangman-Game-Server\Cliente\src` após ser alcançado, deve ser digitado o comando `java Cliente`.
+2. Entre na pasta onde a classe __*Cliente*__ se encontra, pelo próprio terminal do `VSCode` ou pelo `CMD`. Digite o O __*path*__ `seu_disco_rídigo\seu_usuário\local_do_projeto\Hangman-Game-Server\Cliente\src`, após ser alcançado, deve ser digitado o comando `java Cliente`.
 
 > Se preferir, pode optar por passar um endereço IP e uma porta que deseje para que o servidor nela execute. Por padrão, caso não seja passado nenhuma porta e nem o 'host', assume-se a porta '3000' e 'localhost', respectivamente.
 

@@ -147,16 +147,13 @@ public class Cliente
             // Cria uma nova 'TratadoraDeComunicadoDeDesligamento' utilizando o Parceiro.
             tratadoraDeComunicadoDeDesligamento = new TratadoraDeComunicadoDeDesligamento(servidor);
         } 
-        catch (Exception erro) {} // sei que servidor foi instanciado
+        catch (Exception erro) {} // sei que servidor foi instanciado.
 
         // Inicia a thread da 'TratadoraDeComunicadoDeDesligamento'.
         tratadoraDeComunicadoDeDesligamento.start();
 
         
         // Loop principal para interagir com o usuário e enviar/receber mensagens do servidor.
-        
-    do
-    {
         do
         {
             // Exibe as opções para o usuário.
@@ -164,13 +161,6 @@ public class Cliente
             System.out.println("Pressione [T] para terminar: ");
             System.out.println();
             resposta = Character.toUpperCase(Teclado.getUmChar());
-
-            if (resposta != 'S' && resposta != 'T') 
-            {
-                // Se o usuário não inserir 'S' ou 'T', exibe uma mensagem de erro.
-                System.err.println("Caractere incorreto! Por favor, digite 'S' para jogar ou 'T' para terminar.");
-            } 
-        }   while (resposta != 'S' && resposta != 'T');
 
             try
             {
@@ -272,7 +262,14 @@ public class Cliente
                 System.err.println("Caso o erro persista, termine o programa");
                 System.err.println("e volte a tentar mais tarde!\n");
             }
-        }while (resposta != 'T');
+        } 
+        while (resposta != 'T');
+
+        try 
+        {
+            servidor.receba(new PedidoParaSair());
+        } 
+        catch (Exception erro) {erro.printStackTrace();}
         
         // Exibe uma mensagem de agradecimento e encerra o programa.
         System.out.println("Obrigado por usar este programa!");
