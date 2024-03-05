@@ -84,20 +84,20 @@
 >     </p>
 > </div>
      
-## Folder Structure
+## Estrutura da Pasta
 
-The workspace contains two folders by default, where:
+O espaço de trabalho contém por padrão duas pastas, onde:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `src`: a pasta para manter os arquivos de origem
+- `lib`: a pasta para manter as dependências.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Enquanto isso, os arquivos de saída compilados serão gerados na pasta `bin` por padrão.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Se você deseja personalizar a estrutura de pastas, abra `.vscode/settings.json` e atualize as configurações relacionadas lá.
 
 ## Gerenciamento de Dependências
 
 A visualização `JAVA PROJECTS` permite que você gerencie suas dependências. Mais detalhes podem ser encontrados [aqui](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
 ## Licenca
-Este projeto está licenciado sob a [MIT LICENSE] https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Server/blob/8ec562f64b509e6199c3f6d681e1992abcf3870a/LICENSEConsulte o arquivo para obter detalhes.
+Este projeto está licenciado sob a [MIT LICENSE](https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/LICENSE). Consulte o arquivo para obter detalhes.
