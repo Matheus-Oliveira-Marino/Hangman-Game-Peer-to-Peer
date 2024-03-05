@@ -52,6 +52,9 @@
 > Se preferir, pode optar por passar um endereço IP e uma porta que deseje para que o servidor nela execute. Por padrão, caso não seja passado nenhuma porta e nem o 'host', assume-se a porta '3000' e 'localhost', respectivamente.
 
 > Caso os argumentos pelo terminal ultrapasse o limite definido anteriormente, para as classes 'Cliente' e 'Servidor',  o sistema denunciará um erro e solicitará que sejam enviados apenas 2 argumentos para 'Cliente', e 1 para o 'Servidor'.
+
+
+> O Funcionamento do projeto pode ser encontrado no [video1](https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/videos/Jogo%20Funcionando.mp4), e o [video2]. penas é necessário realizar o download do mesmo.
 ## Folder Structure
 
 The workspace contains two folders by default, where:
