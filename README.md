@@ -43,19 +43,46 @@
 
 ## Como Executar
 
+<br>
+  
 1. Execute primeiro o servidor. Entre na pasta onde a classe __*Servidor*__ se encontra, pelo próprio terminal do `VSCode` ou pelo `CMD`. O __*path*__ `seu_disco_rídigo\seu_usuário\local_do_projeto\Hangman-Game-Server\Servidor\src`, após ser alcançado, deve ser digitado o comando `java Servidor`.
 
+<br>
+
+> <div style="text-align: center;">
+>     <p align = "center">
 > Se preferir, pode optar por passar uma porta que deseje que o servidor nela execute. Por padrão, caso não seja passado nenhuma porta, assume-se a '3000'.
+>     </p>
+> </div>
+
+<br>
 
 2. Entre na pasta onde a classe __*Cliente*__ se encontra, pelo próprio terminal do `VSCode` ou pelo `CMD`. Digite o O __*path*__ `seu_disco_rídigo\seu_usuário\local_do_projeto\Hangman-Game-Server\Cliente\src`, após ser alcançado, deve ser digitado o comando `java Cliente`.
 
+<br>
+  
+> <div style="text-align: center;">
+>     <p align = "center">
 > Se preferir, pode optar por passar um endereço IP e uma porta que deseje para que o servidor nela execute. Por padrão, caso não seja passado nenhuma porta e nem o 'host', assume-se a porta '3000' e 'localhost', respectivamente.
+>     </p>
+> </div>
 
+<br>
+
+> <div style="text-align: center;">
+>     <p align = "center">
 > Caso os argumentos pelo terminal ultrapasse o limite definido anteriormente, para as classes 'Cliente' e 'Servidor',  o sistema denunciará um erro e solicitará que sejam enviados apenas 2 argumentos para 'Cliente', e 1 para o 'Servidor'.
+>     </p>
+> </div>
 
-<div style="text-align: center;">
-    O Funcionamento do projeto pode ser encontrado no <a href="https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/videos/Jogo%20Funcionando.mp4">video1</a>, e o <a href="https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/videos/Acertando%20a%20palavra.mp4">video2</a>. Apenas é necessário realizar o download de ambos.
-</div>
+<br>
+
+> <div style="text-align: center;">
+>     <p align = "center">
+>    O Funcionamento do projeto pode ser encontrado no <a href="https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/videos/Jogo%20Funcionando.mp4">video1</a>, e o 
+>     <a href="https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/videos/Acertando%20a%20palavra.mp4">video2</a>. Apenas é necessário realizar o download de ambos.
+>     </p>
+> </div>
      
 ## Folder Structure
 
