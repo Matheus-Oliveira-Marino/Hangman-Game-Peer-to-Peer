@@ -9,7 +9,7 @@ public class Servidor
     */
 
      /** Porta padrão para o servidor */
-    public static String PORTA_PADRAO = "7060";
+    public static String PORTA_PADRAO = "3000";
 
 
     /**

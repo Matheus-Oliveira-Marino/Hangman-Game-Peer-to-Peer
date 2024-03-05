@@ -13,7 +13,7 @@ public class Cliente
 
     // Porta padrão usada para a conexão com o servidor. 
     // A porta do das classes 'Cliente' e 'Servidor' devem ser iguais!
-    public static final int PORTA_PADRAO = 7060;
+    public static final int PORTA_PADRAO = 3000;
 
 
 
@@ -202,7 +202,6 @@ public class Cliente
 
                     do
                     {
-
                         // Solicita ao servidor o resultado atual e espera pela resposta.
                         servidor.receba(new PedidoDeResultado());
 
@@ -274,17 +273,7 @@ public class Cliente
                 System.err.println("e volte a tentar mais tarde!\n");
             }
         }while (resposta != 'T');
-        //while (resposta != 'T');
         
-        // Solicita ao servidor para encerrar a conexão.
-        // try 
-        // {
-        //     servidor.receba(new PedidoParaSair());
-        // } 
-        // catch (Exception erro) 
-        // {}
-
-
         // Exibe uma mensagem de agradecimento e encerra o programa.
         System.out.println("Obrigado por usar este programa!");
         System.exit(0);
