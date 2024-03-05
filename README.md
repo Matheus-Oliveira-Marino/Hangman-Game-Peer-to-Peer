@@ -53,8 +53,10 @@
 
 > Caso os argumentos pelo terminal ultrapasse o limite definido anteriormente, para as classes 'Cliente' e 'Servidor',  o sistema denunciará um erro e solicitará que sejam enviados apenas 2 argumentos para 'Cliente', e 1 para o 'Servidor'.
 
-
-> O Funcionamento do projeto pode ser encontrado no [video1](https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/videos/Jogo%20Funcionando.mp4), e o [video2]. penas é necessário realizar o download do mesmo.
+<div style="text-align: center;">
+    O Funcionamento do projeto pode ser encontrado no <a href="https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/videos/Jogo%20Funcionando.mp4">video1</a>, e o <a href="https://github.com/Matheus-Oliveira-Marino/Hangman-Game-Peer-to-Peer/blob/main/videos/Acertando%20a%20palavra.mp4">video2</a>. Apenas é necessário realizar o download de ambos.
+</div>
+     
 ## Folder Structure
 
 The workspace contains two folders by default, where:
