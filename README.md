@@ -16,7 +16,7 @@
 
 - __*Comunicação Assíncrona*__: O projeto utiliza `Threads` para lidar com a comunicação assíncrona entre os jogadores e o servidor, permitindo que múltiplas operações ocorram simultaneamente.
 
-## Requisitos do Sistema 
+##  :exclamation: Requisitos do Sistema 
 
 1. Certifique-se de ter o `Java JDK` instalado em seu sistema. Link para [download](https://www.oracle.com/java/technologies/downloads/).
 
